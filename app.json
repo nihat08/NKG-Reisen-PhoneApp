@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "OCR-NKG",
+    "name": "NKG-Reisen Mitarbeiter",
     "slug": "OCR-NKG",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "ocrnkg",
+    "scheme": "nkg",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0A1628",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -21,16 +21,18 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "backgroundColor": "#0A1628",
+      "themeColor": "#0A1628"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0A1628",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 200
         }
       ]
     ],
